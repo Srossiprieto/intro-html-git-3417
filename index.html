@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titulo de la web -->
+    <title>Primera web de Santino Rossi</title>
+</head>
+<!-- Contenido de nuestra web (body) -->
+<body>
+<!-- action (donde se dirige la información) method get (ingresa los campos que se encuentran
+    dentro de la url) method post (url contiene solamente el simbolo y se guardan en inspeccionar.)-->
+    <form action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre">
+        <br>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido">
+        <br>
+        <br>
+        <label for="contraseña">Contraseña</label>
+        <input type="password" id="contraseña" name="contraseña" placeholder="Ingrese su contraseña">
+        <br>
+        <br>
+        <!-- rows (filas) cols (columnas)-->
+        <label for="comentario">Comentario</label>
+        <br>
+        <textarea name="comentario" id="comentario" placeholder="Ingrese el lugar donde compartio sus mejores mates" cols="40" rows="10"></textarea>
+        <br>
+        <br>
+        <input type="submit" name="Enviar...">
+        <button type="button">Tipo botón</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button>
+
+    
+    </form>
+
+    
+    <h1>Santino Rossi, h1(titulo)</h1>
+    <!-- hr es una linea negra divisoria -->
+    <hr>
+    <h2>Soy un h2 titulo pequeño</h2>
+    <h3>Soy un h3 otro titulo</h3>
+    <h4>Soy un h4 mas de lo mismo</h4>
+    <p>Soy un parrafo.</p>
+    <!-- strong convierte el texto en negrita. -->
+    <strong><p>Hola soy un parrafo en negrita.</p></strong>
+    <hr>
+    <h2>Santino Rossi</h2>
+    <p>Un tipo muy noble</p>
+    <!-- span es para identificar algun texto o etiqueta HTML dentro de otras etiquetas -->
+    <p>Este es un texto <span style="color:blue">mucho mas largo</span>
+        <!-- br es para espaciar los textos, hacer espacio entre texto -->
+        y es para mostrar  <br><br>
+        la etiqueta de span!  
+    </p>
+    <!-- etiqueta de referencia o enlace -->
+    <a target="_blank" href="https://chat.openai.com/">Ir a chat gpt</a>
+    <br>
+    <br>
+
+    <!-- width ancho de la imagen -->
+    <img src="Img/Mate-Auto-Santiago.JPG" alt="Foto del mate" width="250">
+    <br>
+    <!-- Target para que abra en nueva ventana, href donde quiero que vaya cuando toque la img
+    img que quiero que sea tocada, alt esoecificacion, width ancho -->
+   <p>Clickea la imagen.</p>
+    <a   target="_blank" href="https://www.youtube.com/watch?v=Oj5NUJgzn90">
+            <img src="img/Mate.JPG" alt="Foto del mate" width="250">
+   </a>
+   <!-- Vincular pag -->
+   <p>Clickea la imagen.</p>
+   <a  href="./informacionmate.html">
+           <img src="Img/Mate-Manejando.JPG" alt="Foto del mate y volante" width="250">
+  </a>
+
+</body>
+</html>
